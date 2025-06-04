@@ -8,11 +8,11 @@ A simple guessing game in Java where three players compete to guess a randomly g
 
 ## 🎮 How It Works
 
-1. The game generates a random secret number between 0 and 9
-2. Three players automatically make guesses each round
-3. The game compares the guesses with the secret number
-4. If someone guesses correctly, the game ends and declares the winner(s)
-5. If no one guesses correctly, a new round begins
+1. The game generates a random secret number between 0 and 9.
+2. Three players automatically make guesses each round.
+3. The game compares the guesses with the secret number.
+4. If someone guesses correctly, the game ends and declares the winner(s).
+5. If no one guesses correctly, a new round begins.
 
 ## 🏗️ Project Structure
 
@@ -26,18 +26,18 @@ GuessGame/
 ```
 
 ### Player.java
-- Stores player information (name, guess, winner status)
-- `Guess()` method to generate random guesses
-- Getters and setters to access attributes
+- Stores player information (name, guess, winner status).
+- `Guess()` method to generate random guesses.
+- Getters and setters to access attributes.
 
 ### GuessGame.java
-- Controls the main game flow
-- Manages the three players
-- Implements comparison and victory logic
+- Controls the main game flow.
+- Manages the three players.
+- Implements comparison and victory logic.
 
 ### GameLauncher.java
-- Program entry point
-- Instantiates and starts the game
+- Program entry point.
+- Instantiates and starts the game.
 
 ## 🚀 How to Run
 
@@ -51,7 +51,7 @@ GuessGame/
    java GuessGame.GameLauncher
    ```
 
-## 📊 Sample Output
+## 💻 Sample Output
 
 ```
 === GUESS GAME ===
@@ -84,27 +84,29 @@ Thanks for playing!
 
 ## 🎲 Features
 
-- **Randomness**: Both the secret number and guesses are randomly generated
-- **Multiple winners**: More than one player can win in the same round
-- **Simple interface**: Clear console output showing game progress
-- **Encapsulation**: Proper use of access modifiers (private/public)
+- **Randomness**: Both the secret number and guesses are randomly generated.
+- **Multiple winners**: More than one player can win in the same round.
+- **Simple interface**: Clear console output showing game progress.
+- **Encapsulation**: Proper use of access modifiers (private/public).
 
 ## 🛠️ Technologies Used
 
-- **Java**: Main programming language
-- **Math.random()**: For random number generation
-- **Object-Oriented Programming**: Classes, objects, encapsulation
+- **Java**: Main programming language.
+- **Math.random()**: For random number generation.
+- **Object-Oriented Programming**: Classes, objects, encapsulation.
 
-## 📝 Possible Improvements
+## 📝 Possible Improvements (Future Updates)
 
-- Add graphical user interface (GUI)
-- Allow user to choose number of players
-- Implement different difficulty levels
-- Add scoring system
-- Save game history
+- Add graphical user interface (GUI).
+- Allow user to choose number of players.
+- Implement different difficulty levels.
+- Add scoring system.
+- Save game history.
 
-## 👨‍💻 Author
+## 👩‍💻 Author
 
 Developed as a Java learning project.
 
-*Have fun playing! 🎉*
+---
+
+*Have fun!*
